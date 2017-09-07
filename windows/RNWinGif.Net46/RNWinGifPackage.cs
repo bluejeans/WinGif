@@ -1,3 +1,4 @@
+using Extensions;
 using ReactNative.Bridge;
 using ReactNative.Modules.Core;
 using ReactNative.UIManager;
@@ -22,7 +23,7 @@ namespace Com.Reactlibrary.RNWinGif
         /// <returns>The list of native modules.</returns>
         public IReadOnlyList<INativeModule> CreateNativeModules(ReactContext reactContext)
         {
-            return Array.Empty<INativeModule>();
+            return Array<INativeModule>.Empty;
         }
 
         /// <summary>
@@ -32,7 +33,7 @@ namespace Com.Reactlibrary.RNWinGif
         /// <returns>The list of JavaScript modules.</returns>
         public IReadOnlyList<Type> CreateJavaScriptModulesConfig()
         {
-            return Array.Empty<Type>();
+            return Array<Type>.Empty;
         }
 
         /// <summary>
