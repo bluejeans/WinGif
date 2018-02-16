@@ -1,6 +1,6 @@
 {
   "name": "@bluejeans/react-native-win-gif",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React Native windows simple abstraction and Gif implementation",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.42.0",
-    "@bluejeans/react-native-windows": "0.42.1-rc.18"
+    "@bluejeans/react-native-windows": "^0.42.1-rc.18"
   },
   "devDependencies": {
-    "@bluejeans/react-native-windows": "0.42.1-rc.18"
+    "@bluejeans/react-native-windows": "^0.42.1-rc.18"
   }
 }
